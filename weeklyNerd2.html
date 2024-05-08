@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Nerd week 2 - Fenna de Wilde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Weekly Nerd week 2: Fenna de Wilde</h1>
+    </div>
+    <div class="content">
+        <img src="afbeelding-van-de-week.jpg" alt="Afbeelding die de Weekly Nerd illustreert">
+        
+        <h2>Overzicht van de Sessie</h2>
+        <p>In deze sessie van de Weekly Nerd stond het onderwerp 'Toegankelijkheid binnen webdesign' centraal. Toegankelijkheid wordt vaak over het hoofd gezien in het bedrijfsleven, terwijl het essentieel is dat alle digitale content toegankelijk is voor iedere gebruiker, inclusief degenen met beperkingen die afhankelijk zijn van technologieën zoals schermlezers en toetsenbordnavigatie.</p>
+
+        <h3>Animaties en Interacties</h3>
+        <p>Er werd besproken hoe essentieel het is om animaties toegankelijk te maken door het gebruik van het framework Framer Motion. Bijzondere aandacht ging uit naar de toegankelijkheid van focusstaten voor toetsenbordgebruikers. De pseudo-klasse <code>:focus-visible</code> is hierbij cruciaal, aangezien het zorgt dat elk interactief element duidelijk zijn focusstaat aangeeft, een fundamentele vereiste voor mensen die navigeren met behulp van een toetsenbord.</p>
+
+        <h3>ARIA Attributen</h3>
+        <p>ARIA attributen zijn essentieel om webtoepassingen toegankelijker te maken. Een paar voorbeelden die tijdens de sessie werden belicht zijn <code>aria-label</code>, dat beschrijvende tekst toewijst aan elementen die anders niet voldoende beschreven worden door de HTML zelf; <code>aria-expanded</code>, die de uitbreidingsstaat van elementen aangeeft zoals dropdowns; en <code>aria-live</code>, wat essentieel is voor het aankondigen van dynamische veranderingen in de content.</p>
+
+        <h3>Carousel Implementatie</h3>
+        <p>Voor de implementatie van een toegankelijke carousel, werd benadrukt dat het belangrijk is om een <code>role="region"</code> te gebruiken en ARIA-attributen zoals <code>aria-roledescription="carousel"</code> toe te passen. Het gebruik van secties in plaats van divs voor slides werd aanbevolen vanwege hun semantische waarde. Verder werd aangeraden om navigatiecontroles te voorzien van duidelijke labels zoals "Toon slide 1 van 3" om de interactie te verduidelijken.</p>
+
+        <h3>Kleurcontrasten en Tekstgrootte</h3>
+        <p>De sessie behandelde ook de normen voor kleurcontrasten die door de Web Accessibility Initiative (WAI) zijn vastgesteld. De minimumcontrastverhouding van 4.5:1 voor tekst moet altijd worden gehandhaafd om leesbaarheid te garanderen. Lighthouse audits in Chrome DevTools zijn nuttig gebleken om deze aspecten te testen.</p>
+
+        <h3>Lettergrootte en Semantiek</h3>
+        <p>De lettergrootte moet voldoende groot zijn, met een minimum van 16 pixels, en de regellengte moet idealiter tussen de 50 en 70 karakters liggen voor de beste leesbaarheid. Semantiek speelt ook een cruciale rol bij het ondersteunen van screenreaders door een duidelijke structuur en betekenis aan webcontent te geven.</p>
+
+        <h2>Reflectie en Toekomstperspectief</h2>
+        <p>De sessie heeft het belang van toegankelijkheid in webdesign verder verduidelijkt en benadrukt hoe cruciaal het is om inclusieve digitale ervaringen te creëren. Ik ben geïnspireerd om deze principes toe te passen in al mijn toekomstige projecten, met het oog op het ontwerpen van interfaces die voor iedereen toegankelijk zijn.</p>
+    </div>
+</body>
+</html>
